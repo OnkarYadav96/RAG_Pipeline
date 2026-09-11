@@ -1,0 +1,276 @@
+Python Programming Introduction
+
+
+    1. WHAT IS PYTHON?
+--------------------------------------------------------------------------------
+Python is a high-level, interpreted programming language known for:
+  - Simple, readable syntax
+  - Large ecosystem (AI, web, data science, automation)
+  - Cross-platform (Windows, Mac, Linux)
+Used in: AI/ML, web apps (Django, Flask), scripting, automation, data analysis.
+2. INSTALLATION
+--------------------------------------------------------------------------------
+Download from: https://www.python.org/downloads/
+Check install:
+  python --version
+  pip --version
+Recommended: use a virtual environment
+  python -m venv .venv
+  .venv\Scriptsctivate        (Windows)
+  source .venv/bin/activate     (Mac/Linux)
+3. YOUR FIRST PROGRAM
+--------------------------------------------------------------------------------
+print("Hello, World!")
+Run:
+  python hello.py
+4. VARIABLES AND DATA TYPES
+--------------------------------------------------------------------------------
+Variables store data. No need to declare type explicitly.
+name = "Rahul"          # str (string)
+age = 25                # int (integer)
+height = 5.9            # float (decimal)
+is_student = True       # bool (True/False)
+print(type(name))         # <class 'str'>
+Type conversion:
+  x = int("10")
+  y = str(100)
+  z = float("3.14")
+5. OPERATORS
+--------------------------------------------------------------------------------
+Arithmetic:  +  -  *  /  //  %  **
+  Example: 10 // 3 = 3, 10 % 3 = 1, 2 ** 3 = 8
+Comparison:  ==  !=  >  <  >=  <=
+Logical:     and  or  not
+Assignment:  =  +=  -=  *=  /=
+6. STRINGS
+--------------------------------------------------------------------------------
+text = "Hello"
+name = 'Python'
+msg = f"My name is {name}"    # f-string (formatted string)
+Common methods:
+  text.upper()
+  text.lower()
+  text.strip()
+  text.replace("H", "J")
+  len(text)
+Slicing:
+  text[0]       # 'H'
+  text[1:4]     # 'ell'
+  text[:3]      # 'Hel'
+  text[2:]      # 'llo'
+7. INPUT / OUTPUT
+--------------------------------------------------------------------------------
+name = input("Enter your name: ")
+print("Hello,", name)
+age = int(input("Enter age: "))
+8. CONDITIONAL STATEMENTS
+--------------------------------------------------------------------------------
+age = 18
+if age >= 18:
+    print("Adult")
+elif age >= 13:
+    print("Teen")
+else:
+    print("Child")
+Indentation (4 spaces) is required in Python.
+9. LOOPS
+--------------------------------------------------------------------------------
+# for loop
+for i in range(5):
+    print(i)          # 0, 1, 2, 3, 4
+for char in "Python":
+    print(char)
+# while loop
+count = 0
+while count < 3:
+    print(count)
+    count += 1
+break    -> exit loop
+continue -> skip to next iteration
+10. LISTS (ordered, changeable)
+--------------------------------------------------------------------------------
+fruits = ["apple", "banana", "cherry"]
+fruits.append("mango")
+fruits.remove("banana")
+fruits[0] = "orange"
+print(len(fruits))
+List comprehension:
+  squares = [x * x for x in range(5)]
+11. TUPLES (ordered, unchangeable)
+--------------------------------------------------------------------------------
+point = (10, 20)
+x, y = point
+12. DICTIONARIES (key-value pairs)
+--------------------------------------------------------------------------------
+person = {
+    "name": "Rahul",
+    "age": 25,
+    "city": "Delhi"
+}
+print(person["name"])
+person["email"] = "rahul@example.com"
+print(person.get("phone", "N/A"))
+for key, value in person.items():
+    print(key, value)
+13. SETS (unique items, unordered)
+--------------------------------------------------------------------------------
+numbers = {1, 2, 3, 3, 4}
+numbers.add(5)
+14. FUNCTIONS
+--------------------------------------------------------------------------------
+def greet(name):
+  return f"Hello, {name}"
+print(greet("Rahul"))
+def add(a, b=0):
+  return a + b
+# *args and **kwargs
+def show(*args, **kwargs):
+  print(args)
+  print(kwargs)
+15. LAMBDA (anonymous function)
+--------------------------------------------------------------------------------
+square = lambda x: x * x
+print(square(5))
+16. CLASSES AND OBJECTS (OOP)
+--------------------------------------------------------------------------------
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+    def introduce(self):
+        return f"I am {self.name}, age {self.age}"
+p = Person("Rahul", 25)
+print(p.introduce())
+17. MODULES AND IMPORTS
+--------------------------------------------------------------------------------
+import math
+print(math.sqrt(16))
+from datetime import datetime
+print(datetime.now())
+import os
+print(os.getcwd())
+18. FILE HANDLING
+--------------------------------------------------------------------------------
+# Write
+with open("data.txt", "w", encoding="utf-8") as f:
+    f.write("Hello Python
+")
+# Read
+with open("data.txt", "r", encoding="utf-8") as f:
+    content = f.read()
+    print(content)
+19. ERROR HANDLING
+--------------------------------------------------------------------------------
+try:
+    result = 10 / 0
+except ZeroDivisionError:
+    print("Cannot divide by zero")
+except Exception as e:
+    print("Error:", e)
+finally:
+    print("Done")
+20. USEFUL BUILT-IN FUNCTIONS
+--------------------------------------------------------------------------------
+len(), min(), max(), sum(), sorted(), enumerate(), zip(), map(), filter()
+numbers = [3, 1, 4, 1, 5]
+print(sorted(numbers))
+print(sum(numbers))
+21. LIST / DICT / SET OPERATIONS (quick reference)
+--------------------------------------------------------------------------------
+List:     append, extend, pop, insert, index, sort
+Dict:     keys(), values(), items(), pop(), update()
+Set:      union (|), intersection (&), difference (-)
+22. VIRTUAL ENV + PACKAGES
+--------------------------------------------------------------------------------
+pip install requests
+pip list
+pip freeze > requirements.txt
+pip install -r requirements.txt
+23. COMMON PATTERNS FOR AI / LANGCHAIN WORK
+--------------------------------------------------------------------------------
+# Environment variables
+from dotenv import load_dotenv
+import os
+load_dotenv()
+api_key = os.getenv("GROQ_API_KEY")
+# JSON
+import json
+data = {"name": "Rahul"}
+text = json.dumps(data)
+obj = json.loads(text)
+# HTTP requests
+import requests
+response = requests.get("https://api.github.com")
+print(response.status_code)
+24. CODING STYLE (PEP 8 basics)
+--------------------------------------------------------------------------------
+- Use 4 spaces for indentation
+- snake_case for variables and functions: my_variable
+- PascalCase for classes: MyClass
+- UPPER_CASE for constants: MAX_SIZE
+- Add docstrings to functions/classes
+25. PRACTICE EXERCISES
+--------------------------------------------------------------------------------
+1. Write a program to check if a number is even or odd.
+2. Print numbers 1 to 100 divisible by 3.
+3. Reverse a string without using built-in reverse.
+4. Count vowels in a string.
+5. Find the largest number in a list.
+6. Create a simple calculator using functions.
+7. Read a file and count lines/words.
+8. Build a dictionary phone book (name -> number).
+26. SAMPLE SOLUTIONS
+--------------------------------------------------------------------------------
+# Even or odd
+n = int(input("Enter number: "))
+print("Even" if n % 2 == 0 else "Odd")
+# Largest in list
+nums = [10, 5, 22, 8]
+print(max(nums))
+# Count vowels
+def count_vowels(s):
+    vowels = "aeiou"
+    return sum(1 for ch in s.lower() if ch in vowels)
+27. NEXT STEPS
+--------------------------------------------------------------------------------
+After basics, learn:
+  - Object-Oriented Programming (inheritance, polymorphism)
+  - List comprehensions and generators
+  - Decorators
+  - Async Python (async/await)
+  - NumPy, Pandas (data)
+  - FastAPI / Flask (APIs)
+  - LangChain / LangGraph (AI agents)
+================================================================================
+                              END
+================================================================================
+Quick reference card
+Topic	Example
+Variable
+x = 10
+String
+f"Value: {x}"
+List
+[1, 2, 3]
+Dict
+{"a": 1}
+Function
+def f(x): return x * 2
+Class
+class A: pass
+Loop
+for i in range(5):
+Condition
+if x > 0:
+Import
+import os
+File
+with open("f.txt") as f:
+If you want, I can also give you:
+
+Python for AI/LangChain (focused intro), or
+50 practice questions with answers, or
+Save this as a .txt file in your project folder.
+
+
+Python is widely used in web development,data science,artificial intelligence and automation.
