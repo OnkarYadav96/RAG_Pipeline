@@ -1,0 +1,95 @@
+ONKAR YADAV
+
+Pune, Maharashtra 413102
+9881826367
+onkaryadav096@gmail.com
+LinkedIn: https://www.linkedin.com/in/onkar-yadav-b79426174/
+
+Websites, Portfolios, Profiles
+
+https://www.linkedin.com/in/onkar-yadav-b79426174/
+
+Professional Summary
+
+Experienced Frontend Developer with over 4+ years of hands-on experience in Vue JS, JavaScript, Node JS. Demonstrated success in delivering high-quality software solutions aligned with business objectives and elevated user experiences. Collaborates effectively with cross-functional teams, including Backend, UX, QA, and Define/Stakeholders.
+
+Work History
+
+April 2022 - Current
+
+Dassault Systems Lab Private Limited - Pune, Maharashtra
+Software Engineer Specialist    
+
+Working on all phases of SLDC with agile methodology
+Developed frontend components of CRM software using Vue JS, JavaScript, HTML5, CSS, ensuring high performance and responsiveness across different devices and browsers
+Collaborated with backend developers to integrate frontend interfaces with RESTful APIs, ensuring seamless data flow and functionality
+Developed reusable components that significantly reduced development effort on multiple projects.
+Worked on continuous upgrades of Sandbox project
+Worked on different tools like for version control tool GIT, SVN, Sonar9^ etc
+Worked closely with UI/UX designers to implement design mockups, ensure alignment user experience goals
+Consistently met project deadlines by effectively managing time and prioritizing tasks according to importance.
+Collaborated with management, internal and development partners regarding software application design status and project progress.
+Conducted thorough code reviews to identify potential areas for improvement, ultimately enhancing code quality across all projects handled by the team.
+Integrated new technologies into existing systems, increasing capabilities and improving overall performance.
+
+March 2021 - April 2022
+
+Dassault Systems Lab Private Limited - Pune, Maharashtra
+Associate Software Engineer    
+
+Worked on Dassault first CRM software product and having good knowledge of project communication
+Developed well-organized training materials for end-users, enabling seamless adoption of new software features.
+Migrate code base from Vue JS 2 to Vue JS 3 and for store management VUEX to Pinia
+Worked on write clean maintainable, testable code using best practice in frontend development
+Collaborated with cross-functional teams to develop, test, and deploy high-quality software solutions for clients.
+Troubleshoot and debug issue in web application and provide solution to improve performance and user experience
+Created proofs of concept for innovative new solutions.
+
+Extra-Curricular Activities
+
+Drawing: Love to draw in my free time. It's a way to express myself creatively and try out different art styles. Traveling: Exploring new places and experiencing different cultures. It helps to learn about the world and appreciate its diversity.
+
+Awards
+
+Awarded by HAVING THE PASSION TO LEARN for extraordinary performance and development in project.
+1st winner of project presentations in CRETECHNOVA 2k19 state level technical event.
+
+Roles And Responsibilities
+
+Developing high-quality, stable code using appropriate design patterns.
+Functioning in an Agile-enabled environment and following Scrum methodology.
+Cross team collaboration, On-boarding and mentoring new joiners in the team and Production Support.
+
+Skills
+
+JavaScript
+
+Node JS
+
+React JS
+
+Vue JS
+
+PINIA
+
+Redux
+
+Git
+
+Software development lifecycle
+
+Sonar 9^
+
+Web technologies
+
+3DExperience Platform
+
+Education
+
+January 2021
+CDAC Pune, India
+Diploma Advance Computing
+
+January 2019
+S.V.P.M College of Engineering Pune, India
+B.E E & TC

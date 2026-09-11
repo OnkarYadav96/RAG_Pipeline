@@ -1,0 +1,33 @@
+
+sristy Sharma Abiut ==> Hi I am a Java developer. Currently  . I have 4+ years of experience in Service Oriented architecture. Extensive hands-on expertise in developing RESTful webservices using J2EE, SpringBoot, JPA and Hibernate. Sound understanding of Core Java concepts and design patterns. Proficient in core frontend web technologies such as JavaScript, VueJS, HTML and CSS. 
+
+Ravikant jha => Experienced Web developer with a demonstrated history of working in the information technology and services industry. Skilled in VueJs, VueX, React, Angular 4 & above, Material UI, JavaScript, HTML5, ElementUI, Bootstrap & CSS. Strong information technology professional with a Bachelor of Technology (B.Tech.).
+
+Mitual==>Detail-oriented Front End Developer with more than 3 years experience working with React, Redux, sass, HTML, CSS, JavaScript, Vue, and Vuex . Highly adept at both independent and collaborative projects, with different domains like release / test cases tracking application with automate test execution , client issue tracking and management .
+
+Chinmay ==>Experienced Front End Developer with a demonstrated history of working in Product Development Companies. 
+Skilled in Javascript and JS framework Vuejs/Vuex along with good grasp of component libraries such as Bootstrap, Element UI and Vuetify. 
+Excellent collaborator having a good handle of communicating with various teams such as Backend, UX, QA and Define/Stakeholders.
+Pursuader of new tech as well as non tech skills.
+Background of Post Graduate Engineer (M.Tech) from COEP with Electronics and Telecomminication as a major.
+
+
+Web Resume==> OBJECTIVE
+To obtain a challenging UI/UX Designer position where my creativity,problem-solving skills,and experiencein designing engagingand user-friendly interfaces
+can be utilized to enhance user experiences and drive business objectives. 
+
+
+
+Integrate the front-end application with the application business layer
+Ensure that the web application is optimized for speed, scalability, and cross-browser compatibility
+Write clean, maintainable, and testable code using best practices in frontend development
+Troubleshoot and debug issues in the web application and provide solutions to improve performance and user experienc
+Conducting performance tests.
+
+
+Detail-oriented Front End Developer with more than 2.5+ years experience working with Product Development Companies. 
+Skilled in Javascript and JS framework Vuejs/Vuex,Pinia along with good grasp of component libraries such as Bootstrap, Element UI and Element Plus.
+Excellent collaborator having a good handle of communicating with various teams such as Backend, UX, QA and Define/Stakeholders.
+Pursuader of new tech as well as non tech skills.
+
+Highly adept at both independent and collaborative projects, with different domains like release / test cases tracking application with automate test execution , client issue tracking and management .
