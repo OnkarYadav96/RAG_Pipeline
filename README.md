@@ -23,3 +23,17 @@ Upload PDF or TXT files, then ask questions grounded in your documents. Uses loc
 USE FOLLOWING KEYWORDS
 (Streaming,Batch, Structured Output(Pydantic,TypeDict),Middleswares (Summurization,Human-in-the-loop,Model call limit,Token call limit) e.g triggers=message,tokens) 
 LangGraph (Nodes,Edges,States(change state use Reducers)) (TOOLS,MCP Servers), Add memory
+
+
+Vectorless RAG pipeline — official PageIndex SDK workflow.
+
+Reference: https://github.com/VectifyAI/PageIndex
+
+PageIndex replaces vector DB + chunking with:
+  Step 1 — Index:  build a hierarchical tree index per document
+  Step 2 — Retrieve: LLM reasons over the tree (not similarity search)
+  Step 3 — Generate: answer from text in selected tree nodes
+
+Compare with your vector RAG in notebook/pdf_loader.ipynb:
+  Vector RAG:  chunk → embed → Chroma → cosine similarity → LLM
+  PageIndex:   tree  → LLM tree search → fetch nodes → LLM
